@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$(".bxslider").bxSlider(); //plug in
 
 	// Smooth Scroll
-		$("a[href^="#"]").on("click", function (e) {
+		$('a[href^="#"]').on("click",function (e) {
 		    e.preventDefault();
 
 		    var target = this.hash;
