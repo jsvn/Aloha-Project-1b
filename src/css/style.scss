@@ -1,6 +1,8 @@
 /* Imports */
 
 	@import 'reset';
+	@import url('./src/js/jquery.bxslider/jquery.bxslider.css');
+	@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
 /*------------------------------Fonts*/
 	/*playfair display*/
@@ -16,18 +18,18 @@
 		    font-weight: bold;
 		    font-style: normal;
 		}
-		@font-face {
-		    font-family: 'playfair_display';
-		    src: url('assets/fonts/playfairdisplay-bolditalic-webfont.eot');
-		    src: url('assets/fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-		         url('assets/fonts/playfairdispassets/font/lay-bolditalic-webfont.woff2') format('woff2'),
-		         url('assets/fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
-		         url('assets/fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-		         url('assets/fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
-		    font-weight: bold;
-		    font-style: italic;
+		// @font-face {
+		//     font-family: 'playfair_display';
+		//     src: url('assets/fonts/playfairdisplay-bolditalic-webfont.eot');
+		//     src: url('assets/fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		//          url('assets/fonts/playfairdispassets/font/lay-bolditalic-webfont.woff2') format('woff2'),
+		//          url('assets/fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+		//          url('assets/fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+		//          url('assets/fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+		//     font-weight: bold;
+		//     font-style: italic;
 
-		}
+		// }
 		@font-face {
 		    font-family: 'playfair_display';
 		    src: url('assets/fonts/playfairdisplay-italic-webfont.eot');
@@ -91,18 +93,18 @@
 		    font-style: normal;
 
 		}
-		@font-face {
-		    font-family: 'raleway';
-		    src: url('assets/fonts/raleway-mediumitalic-webfont.eot');
-		    src: url('assets/fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-		         url('assets/fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
-		         url('assets/fonts/raleway-mediumitalic-webfont.woff') format('woff'),
-		         url('assets/fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
-		         url('assets/fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
-		    font-weight: bold;
-		    font-style: italic;
+		// @font-face {
+		//     font-family: 'raleway';
+		//     src: url('assets/fonts/raleway-mediumitalic-webfont.eot');
+		//     src: url('assets/fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		//          url('assets/fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+		//          url('assets/fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+		//          url('assets/fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+		//          url('assets/fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+		//     font-weight: bold;
+		//     font-style: italic;
 
-		}
+		// }
 
 /*------------------------------Global Styles*/
 
