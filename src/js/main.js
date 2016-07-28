@@ -2,7 +2,7 @@ $(document).ready(function(){
 	console.log($);
 
 	// Slider
-		$(".bxslider").bxSlider(); //plug in
+		$('.bxslider').bxSlider(); //plug in
 
 	// Smooth Scroll
 		$('a[href^="#"]').on("click",function (e) {

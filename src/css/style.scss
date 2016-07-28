@@ -1,3 +1,7 @@
+/* Imports */
+
+	@import 'reset';
+
 /*------------------------------Fonts*/
 	/*playfair display*/
 
@@ -248,7 +252,7 @@
 		background:	
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
 			url(assets/images/banner-girl.png) center 67px no-repeat, 
-			url(assets/images/flower-bkgd.jpg) center center repeat;
+			url(assets/images/flower-bkgd.png) center center repeat;
 		background-size: auto, auto 400px, auto 450px;
 		height: 450px;
 		min-width: 480px;
@@ -352,7 +356,7 @@
 	.men_item:nth-child(1) {
 		background: 
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-			url(assets/images/mens-category.jpg) no-repeat center center;
+			url(assets/images/mens-category.png) no-repeat center center;
 			background-size: cover;
 			border-width: 4px 0;
 	}
@@ -360,7 +364,7 @@
 	.men_item:nth-child(2) {
 		background:
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-			url(assets/images/trends-category.jpg) no-repeat center center;
+			url(assets/images/trends-category.png) no-repeat center center;
 			background-size: cover;
 		border-left: none;
 
@@ -369,7 +373,7 @@
 	.men_item:nth-child(3) {
 		background: 
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-			url(assets/images/glasses-category.jpg) no-repeat center center;
+			url(assets/images/glasses-category.png) no-repeat center center;
 			background-size: cover;
 		border-right: none;
 	}
@@ -408,7 +412,7 @@
 	.women_item:nth-child(1) {
 		background: 
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-			url(assets/images/womens-category.jpg) no-repeat center center;
+			url(assets/images/womens-category.png) no-repeat center center;
 			background-size: cover;
 			border-width: 4px 0;
 	}
@@ -416,7 +420,7 @@
 	.women_item:nth-child(2) {
 		background:
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-			url(assets/images/sale-category.jpg) no-repeat center center;
+			url(assets/images/sale-category.png) no-repeat center center;
 			background-size: cover;
 		border-left: none;
 
@@ -425,7 +429,7 @@
 	.women_item:nth-child(3) {
 		background: 
 			linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-			url(assets/images/bags-category.jpg) no-repeat center center;
+			url(assets/images/bags-category.png) no-repeat center center;
 			background-size: cover;
 		border-right: none;
 	}
@@ -508,7 +512,7 @@
 	.signup {
 		overflow: hidden;
 		background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),
-					url(./assets/images/wave-bkgd.jpg) center center;
+					url(./assets/images/wave-bkgd.png) center center;
 		background-position: bottom;
 		min-width: 480px;
 	}
