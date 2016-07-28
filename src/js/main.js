@@ -2,7 +2,7 @@ $(document).ready(function(){
 	console.log($);
 
 	// Slider
-		$(".bxslider").bxSlider(); //plug in
+		$('.bxslider').bxSlider(); //plug in
 
 	// Smooth Scroll
 		$('a[href^="#"]').on("click",function (e) {
@@ -43,11 +43,11 @@ $(document).ready(function(){
 	// Nav Bar Fading
 		window.addEventListener("scroll", function() {
 		    if (window.scrollY > 10) {
-		    	$("section.nav").addClass("navFixed");
+		    	$("div.nav").addClass("navFixed");
 
 		    }
 		    else {
-		    	$("section.navFixed").removeClass("navFixed")
+		    	$("div.navFixed").removeClass("navFixed")
 		    };
 		},false);
 
