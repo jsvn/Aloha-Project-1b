@@ -109,7 +109,7 @@
 /*------------------------------Global Styles*/
 
 	.container{
-		min-width: 480px;
+		min-width: 360px;
 		margin: 0 auto;
 	}
 
@@ -257,7 +257,7 @@
 			url(assets/images/flower-bkgd.png) center center repeat;
 		background-size: auto, auto 400px, auto 450px;
 		height: 450px;
-		min-width: 480px;
+		min-width: 360px;
 	}
 
 	.banner_container {
@@ -285,10 +285,6 @@
 	}
 
 /*------------------------------Hand-Crafted Section || handcraft = Hand Crafted*/
-
-	.handcraft {
-		overflow: hidden;
-	}
 
 	.handcraft_container {
 		margin: 50px 0 50px 0;
@@ -516,7 +512,7 @@
 		background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),
 					url(./assets/images/wave-bkgd.jpg) center center;
 		background-position: bottom;
-		min-width: 480px;
+		min-width: 360px;
 	}
 
 	.signup_container {
@@ -599,7 +595,7 @@
 
 	footer {
 		overflow: hidden;
-		min-width: 480px;
+		min-width: 360px;
 		background: #242424;
 		color: white;
 	}
@@ -610,7 +606,7 @@
 
 	.foot_container {
 		margin: 50px auto 50px auto;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		line-height: 150%;
 		text-align: center;
 	}

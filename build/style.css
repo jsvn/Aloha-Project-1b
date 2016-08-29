@@ -95,7 +95,7 @@ table {
 
 /*------------------------------Global Styles*/
 .container {
-  min-width: 480px;
+  min-width: 360px;
   margin: 0 auto; }
 
 em {
@@ -231,7 +231,7 @@ div.total {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/banner-girl.png) center 67px no-repeat, url(assets/images/flower-bkgd.png) center center repeat;
   background-size: auto, auto 400px, auto 450px;
   height: 450px;
-  min-width: 480px; }
+  min-width: 360px; }
 
 .banner_container {
   color: white;
@@ -254,9 +254,6 @@ div.total {
   font-family: 'playfair_display'; }
 
 /*------------------------------Hand-Crafted Section || handcraft = Hand Crafted*/
-.handcraft {
-  overflow: hidden; }
-
 .handcraft_container {
   margin: 50px 0 50px 0; }
 
@@ -445,7 +442,7 @@ div.total {
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./assets/images/wave-bkgd.jpg) center center;
   background-position: bottom;
-  min-width: 480px; }
+  min-width: 360px; }
 
 .signup_container {
   margin: 50px auto;
@@ -519,7 +516,7 @@ p.signup_par {
 /*------------------------------Footer Section || sm = Social Media*/
 footer {
   overflow: hidden;
-  min-width: 480px;
+  min-width: 360px;
   background: #242424;
   color: white; }
 
@@ -528,7 +525,7 @@ footer {
 
 .foot_container {
   margin: 50px auto 50px auto;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 150%;
   text-align: center; }
 
