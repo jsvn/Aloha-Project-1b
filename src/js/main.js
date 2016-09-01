@@ -35,9 +35,8 @@ $(document).ready(function(){
 			}
 			else{
 				alert("Please enter an email address.");
-				event.preventDefault(); // prevents the form from being submitted
 			}
-			
+			event.preventDefault();
 		});
 
 	// Nav Bar Fading

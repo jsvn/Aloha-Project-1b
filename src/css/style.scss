@@ -109,7 +109,7 @@
 /*------------------------------Global Styles*/
 
 	.container{
-		min-width: 360px;
+		min-width: 320px;
 		margin: 0 auto;
 	}
 
@@ -257,7 +257,7 @@
 			url(assets/images/flower-bkgd.png) center center repeat;
 		background-size: auto, auto 400px, auto 450px;
 		height: 450px;
-		min-width: 360px;
+		min-width: 320px;
 	}
 
 	.banner_container {
@@ -512,7 +512,7 @@
 		background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),
 					url(./assets/images/wave-bkgd.jpg) center center;
 		background-position: bottom;
-		min-width: 360px;
+		min-width: 320px;
 	}
 
 	.signup_container {
@@ -595,7 +595,7 @@
 
 	footer {
 		overflow: hidden;
-		min-width: 360px;
+		min-width: 320px;
 		background: #242424;
 		color: white;
 	}

@@ -59,6 +59,13 @@ table {
 
 @font-face {
   font-family: 'playfair_display';
+  src: url("assets/fonts/playfairdisplay-bolditalic-webfont.eot");
+  src: url("assets/fonts/playfairdisplay-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/playfairdispassets/font/lay-bolditalic-webfont.woff2") format("woff2"), url("assets/fonts/playfairdisplay-bolditalic-webfont.woff") format("woff"), url("assets/fonts/playfairdisplay-bolditalic-webfont.ttf") format("truetype"), url("assets/fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'playfair_display';
   src: url("assets/fonts/playfairdisplay-italic-webfont.eot");
   src: url("assets/fonts/playfairdisplay-italic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/playfairdisplay-italic-webfont.woff2") format("woff2"), url("assets/fonts/playfairdisplay-italic-webfont.woff") format("woff"), url("assets/fonts/playfairdisplay-italic-webfont.ttf") format("truetype"), url("assets/fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic") format("svg");
   font-weight: normal;
@@ -93,9 +100,16 @@ table {
   font-weight: bold;
   font-style: normal; }
 
+@font-face {
+  font-family: 'raleway';
+  src: url("assets/fonts/raleway-mediumitalic-webfont.eot");
+  src: url("assets/fonts/raleway-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/raleway-mediumitalic-webfont.woff2") format("woff2"), url("assets/fonts/raleway-mediumitalic-webfont.woff") format("woff"), url("assets/fonts/raleway-mediumitalic-webfont.ttf") format("truetype"), url("assets/fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
 /*------------------------------Global Styles*/
 .container {
-  min-width: 360px;
+  min-width: 320px;
   margin: 0 auto; }
 
 em {
@@ -231,7 +245,7 @@ div.total {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/banner-girl.png) center 67px no-repeat, url(assets/images/flower-bkgd.png) center center repeat;
   background-size: auto, auto 400px, auto 450px;
   height: 450px;
-  min-width: 360px; }
+  min-width: 320px; }
 
 .banner_container {
   color: white;
@@ -442,7 +456,7 @@ div.total {
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./assets/images/wave-bkgd.jpg) center center;
   background-position: bottom;
-  min-width: 360px; }
+  min-width: 320px; }
 
 .signup_container {
   margin: 50px auto;
@@ -516,7 +530,7 @@ p.signup_par {
 /*------------------------------Footer Section || sm = Social Media*/
 footer {
   overflow: hidden;
-  min-width: 360px;
+  min-width: 320px;
   background: #242424;
   color: white; }
 
