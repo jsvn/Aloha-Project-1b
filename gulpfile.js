@@ -17,7 +17,7 @@ var sass = require('gulp-sass'),
            })) // Call the uglify function on these files
         .pipe(plumber())
         .pipe(rename({ extname: '.min.js' })) //  Rename the uglified file
-        .pipe(gulp.dest('./')) // Where do we put the result?
+        .pipe(gulp.dest('./build')) // Where do we put the result?
   });
 
 // watch .js file then uglify on change
@@ -44,7 +44,7 @@ var sass = require('gulp-sass'),
         .pipe(gulp.dest('./build'))
         .pipe(cssnano())
         .pipe(rename('style.min.css'))
-        .pipe(gulp.dest('./'));
+        .pipe(gulp.dest('./build'));
   });
 
 //watch .scss files then sass on change
