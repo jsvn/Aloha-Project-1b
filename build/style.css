@@ -698,6 +698,8 @@ i.social {
   /* change sizes and moved the img lower*/
   .container {
     width: 1240px; }
+  .product_category_grid {
+    width: 100vw; }
   .men_item {
     height: 310px; }
   .women_item {
