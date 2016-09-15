@@ -1,6 +1,6 @@
 #Aloha Project 2
 
-
+![alt text](./aloha1b-screenshot.png "Aloha 1b")
 
 ###Software:
 	
