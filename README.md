@@ -4,7 +4,7 @@
 
 ###Software:
 	
-- Sublime Text (editing)
+- Atom Text (editing)
 	
 - Chrome (testing)
 	
@@ -27,15 +27,11 @@
 - Checked my main.js in Jslint
 - Learned how to position elements by flexbox
 - Executed Jsplugins/code
-	- bxslider
-	- smooth scrolling
-	- item counter for cart
 	- fixed navbar with a class change on scroll down
 	- email validator
 
 ###Stretched/Extra Goals
 	
-- Item counter for your cart
 - Fixed header with a background change
 
 ###Future Goals
